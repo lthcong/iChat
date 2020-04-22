@@ -18,6 +18,7 @@
 		44CDD50724502B9E003BD06E /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD50624502B9E003BD06E /* DashboardVC.swift */; };
 		44CDD50C245034CA003BD06E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD50B245034CA003BD06E /* Color.swift */; };
 		44CDD50F245035F2003BD06E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD50E245035F2003BD06E /* UIColor.swift */; };
+		44CDD51224503C95003BD06E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD51124503C95003BD06E /* SignUpVC.swift */; };
 		AEDEB19396E223EEAFC85C6D /* Pods_iChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D722B53D69843FFB8F1D15D /* Pods_iChatTests.framework */; };
 		D6689FDEB1B1E7993BBFD21A /* Pods_iChat_iChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C93D001973725350BD158AE /* Pods_iChat_iChatUITests.framework */; };
 		DE10B8E10A8EC4B19CF52FB1 /* Pods_iChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1525367F42BD30E677C4A5F /* Pods_iChat.framework */; };
@@ -62,6 +63,7 @@
 		44CDD50624502B9E003BD06E /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
 		44CDD50B245034CA003BD06E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		44CDD50E245035F2003BD06E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		44CDD51124503C95003BD06E /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		83371ED5E00539D45A4F517E /* Pods-iChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChatTests.debug.xcconfig"; path = "Target Support Files/Pods-iChatTests/Pods-iChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4572B3902127C197C6A51BE /* Pods-iChat-iChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat-iChatUITests.release.xcconfig"; path = "Target Support Files/Pods-iChat-iChatUITests/Pods-iChat-iChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D19108BDB0397DB1E6D9D473 /* Pods-iChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat.debug.xcconfig"; path = "Target Support Files/Pods-iChat/Pods-iChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		44CDD50424502B6C003BD06E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				44CDD51024503C78003BD06E /* SignUp */,
 				44CDD50524502B86003BD06E /* Dashboard */,
 			);
 			path = ViewController;
@@ -184,6 +187,14 @@
 				44CDD50E245035F2003BD06E /* UIColor.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		44CDD51024503C78003BD06E /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				44CDD51124503C95003BD06E /* SignUpVC.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		4B5AE9EF13CAC3EFD0513BB2 /* Pods */ = {
@@ -453,6 +464,7 @@
 				44CDD50C245034CA003BD06E /* Color.swift in Sources */,
 				44595685244D96F8001FB146 /* AppDelegate.swift in Sources */,
 				44595687244D96F8001FB146 /* SceneDelegate.swift in Sources */,
+				44CDD51224503C95003BD06E /* SignUpVC.swift in Sources */,
 				44CDD50F245035F2003BD06E /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
