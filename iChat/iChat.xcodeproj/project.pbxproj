@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		443B528F2450731900298A93 /* AddFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B528E2450731900298A93 /* AddFriendVC.swift */; };
+		443B5292245075AB00298A93 /* FriendListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B5291245075AB00298A93 /* FriendListVC.swift */; };
 		44595685244D96F8001FB146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44595684244D96F8001FB146 /* AppDelegate.swift */; };
 		44595687244D96F8001FB146 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44595686244D96F8001FB146 /* SceneDelegate.swift */; };
 		4459568C244D96F8001FB146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4459568A244D96F8001FB146 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		1F1820B1AC888DB53FD89386 /* Pods-iChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChatTests.release.xcconfig"; path = "Target Support Files/Pods-iChatTests/Pods-iChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		29AD087670B0752E7EAFA8AA /* Pods-iChat-iChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat-iChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-iChat-iChatUITests/Pods-iChat-iChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C93D001973725350BD158AE /* Pods_iChat_iChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChat_iChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		443B528E2450731900298A93 /* AddFriendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendVC.swift; sourceTree = "<group>"; };
+		443B5291245075AB00298A93 /* FriendListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListVC.swift; sourceTree = "<group>"; };
 		44595681244D96F8001FB146 /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44595684244D96F8001FB146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44595686244D96F8001FB146 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		443B528D245072F700298A93 /* AddFriend */ = {
+			isa = PBXGroup;
+			children = (
+				443B528E2450731900298A93 /* AddFriendVC.swift */,
+			);
+			path = AddFriend;
+			sourceTree = "<group>";
+		};
+		443B52902450759500298A93 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				443B5291245075AB00298A93 /* FriendListVC.swift */,
+			);
+			path = FriendList;
+			sourceTree = "<group>";
+		};
 		44595678244D96F8001FB146 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +179,8 @@
 		44CDD50424502B6C003BD06E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				443B52902450759500298A93 /* FriendList */,
+				443B528D245072F700298A93 /* AddFriend */,
 				44CDD51024503C78003BD06E /* SignUp */,
 				44CDD50524502B86003BD06E /* Dashboard */,
 			);
@@ -462,8 +484,10 @@
 			files = (
 				44CDD50724502B9E003BD06E /* DashboardVC.swift in Sources */,
 				44CDD50C245034CA003BD06E /* Color.swift in Sources */,
+				443B5292245075AB00298A93 /* FriendListVC.swift in Sources */,
 				44595685244D96F8001FB146 /* AppDelegate.swift in Sources */,
 				44595687244D96F8001FB146 /* SceneDelegate.swift in Sources */,
+				443B528F2450731900298A93 /* AddFriendVC.swift in Sources */,
 				44CDD51224503C95003BD06E /* SignUpVC.swift in Sources */,
 				44CDD50F245035F2003BD06E /* UIColor.swift in Sources */,
 			);

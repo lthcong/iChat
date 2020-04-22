@@ -11,6 +11,8 @@ import UIKit
 class DashboardVC: UIViewController {
 
     @IBOutlet weak var vMainView: UIView!
+    @IBOutlet weak var tfEmail: UITextField!
+    @IBOutlet weak var tfPassword: UITextField!
     @IBOutlet weak var btnSignIn: UIButton!
     @IBOutlet weak var btnSignUp: UIButton!
     
@@ -41,5 +43,12 @@ class DashboardVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func signin(_ sender: Any) {
+    }
+    
+    @IBAction func signup(_ sender: Any) {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        var signUpVC: UIViewController = storyBoard.instantiateViewController(withIdentifier: "SignUpVCID") as! SignUpVC
+        self.present(signUpVC, animated:true, completion:nil)
+    }
 }

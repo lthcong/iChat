@@ -1,5 +1,5 @@
 //
-//  SignUpVC.swift
+//  FriendListVC.swift
 //  iChat
 //
 //  Created by Cong La on 4/22/20.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class SignUpVC: UIViewController {
+class FriendListVC: UIViewController {
 
-    @IBOutlet weak var vMainView: UIView!
-    @IBOutlet weak var btnSignUp: UIButton!
-    
+    @IBOutlet weak var vSearchView: UIView!
+    @IBOutlet weak var tbvFriendList: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +20,10 @@ class SignUpVC: UIViewController {
         self.setupUI()
     }
     
-    func setupUI() {
-        self.vMainView.layer.cornerRadius = 20
-        self.btnSignUp.layer.cornerRadius = 20
+    func setupUI() -> Void {
+        self.vSearchView.layer.cornerRadius = 25
     }
+    
 
     /*
     // MARK: - Navigation
@@ -36,9 +35,4 @@ class SignUpVC: UIViewController {
     }
     */
 
-    @IBAction func navigateBack(_ sender: Any) {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        var dashboardVC: UIViewController = storyBoard.instantiateViewController(withIdentifier: "DashboardVCID") as! DashboardVC
-        self.present(dashboardVC, animated:true, completion:nil)
-    }
 }
