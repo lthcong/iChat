@@ -23,6 +23,8 @@
 		445BAE1324517CE6005E31DF /* FriendChatMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445BAE1124517CE6005E31DF /* FriendChatMessageCell.xib */; };
 		445BAE1724517E12005E31DF /* FriendListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445BAE1524517E12005E31DF /* FriendListCell.swift */; };
 		445BAE1824517E12005E31DF /* FriendListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445BAE1624517E12005E31DF /* FriendListCell.xib */; };
+		445BAE1C245184F9005E31DF /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445BAE1A245184F9005E31DF /* PeopleCell.swift */; };
+		445BAE1D245184F9005E31DF /* PeopleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445BAE1B245184F9005E31DF /* PeopleCell.xib */; };
 		44CDD50324502A7F003BD06E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CDD50224502A7F003BD06E /* LaunchScreen.storyboard */; };
 		44CDD50724502B9E003BD06E /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD50624502B9E003BD06E /* DashboardVC.swift */; };
 		44CDD50C245034CA003BD06E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CDD50B245034CA003BD06E /* Color.swift */; };
@@ -77,6 +79,8 @@
 		445BAE1124517CE6005E31DF /* FriendChatMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendChatMessageCell.xib; sourceTree = "<group>"; };
 		445BAE1524517E12005E31DF /* FriendListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListCell.swift; sourceTree = "<group>"; };
 		445BAE1624517E12005E31DF /* FriendListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendListCell.xib; sourceTree = "<group>"; };
+		445BAE1A245184F9005E31DF /* PeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		445BAE1B245184F9005E31DF /* PeopleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleCell.xib; sourceTree = "<group>"; };
 		44CDD50224502A7F003BD06E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44CDD50624502B9E003BD06E /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
 		44CDD50B245034CA003BD06E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 		445BAE0424517A84005E31DF /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				445BAE19245184E3005E31DF /* PeopleCell */,
 				445BAE1424517DF9005E31DF /* FriendCell */,
 				445BAE0524517AC2005E31DF /* ChatCell */,
 			);
@@ -242,6 +247,15 @@
 				445BAE1624517E12005E31DF /* FriendListCell.xib */,
 			);
 			path = FriendCell;
+			sourceTree = "<group>";
+		};
+		445BAE19245184E3005E31DF /* PeopleCell */ = {
+			isa = PBXGroup;
+			children = (
+				445BAE1A245184F9005E31DF /* PeopleCell.swift */,
+				445BAE1B245184F9005E31DF /* PeopleCell.xib */,
+			);
+			path = PeopleCell;
 			sourceTree = "<group>";
 		};
 		44CDD50424502B6C003BD06E /* ViewController */ = {
@@ -424,6 +438,7 @@
 				445956B7244D9DE3001FB146 /* GoogleService-Info.plist in Resources */,
 				44CDD50324502A7F003BD06E /* LaunchScreen.storyboard in Resources */,
 				4459568E244D96FC001FB146 /* Assets.xcassets in Resources */,
+				445BAE1D245184F9005E31DF /* PeopleCell.xib in Resources */,
 				445BAE1324517CE6005E31DF /* FriendChatMessageCell.xib in Resources */,
 				4459568C244D96F8001FB146 /* Main.storyboard in Resources */,
 				445BAE0924517AD7005E31DF /* MyChatMessageCell.xib in Resources */,
@@ -566,6 +581,7 @@
 				445BAE0824517AD7005E31DF /* MyChatMessageCell.swift in Sources */,
 				44CDD51224503C95003BD06E /* SignUpVC.swift in Sources */,
 				44CDD50F245035F2003BD06E /* UIColor.swift in Sources */,
+				445BAE1C245184F9005E31DF /* PeopleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
